@@ -1,0 +1,35 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    background: #000;
+
+    height: 100vh;
+}
+
+.box {
+    width: 16rem;
+    height: 16rem;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    margin-left: -8rem;
+    margin-top: -8rem;
+
+    border: 1px solid #fff;
+}
+
+.box p {
+    font: 2rem Arial, Helvetica, sans-serif;
+    color: #fff;
+
+    margin-top: 2rem;
+}
